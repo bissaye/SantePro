@@ -1,0 +1,29 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+.layout-header{
+    position: -webkit-sticky;
+}
+.custom-card{
+    position: relative;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px;
+    overflow: scroll;
+    font-size:small;
+}
+
+.custom-card h3 h4{
+    font-weight: bolder;
+}
+
+.custom-card .modifier{
+    position:absolute;
+    bottom: 3px;
+    right: 3px;
+}
